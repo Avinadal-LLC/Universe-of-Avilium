@@ -1,0 +1,590 @@
+[
+  {
+    "type": "character",
+    "title": "Alexandria Zeru",
+    "subtitle": "Beastfolk",
+    "text": "Alexandria Zeru is a Beastfolk woman of the Avinadal Empire, known for her close ties to both Aries Villanite and Ulmina Villanite. She carries herself with a quiet precision that belies the depth of her loyalties, navigating the empire's internal politics with the kind of discretion that makes her ",
+    "url": "characters/alexandria-zeru.html",
+    "tags": [],
+    "species": "Beastfolk"
+  },
+  {
+    "type": "character",
+    "title": "Amerati Regulus",
+    "subtitle": "Dark Hav",
+    "text": "Amerati Regulus is a Dark Hav woman born in Hav'En approximately 160 years before the Fall — one of the most distant ancestors of the modern Regulus lineage, and arguably the one most responsible for what that name came to mean. She was trained from birth for the Holy Javelin, Hav'En's elite religio",
+    "url": "characters/amerati-regulus.html",
+    "tags": [],
+    "species": "Dark Hav"
+  },
+  {
+    "type": "character",
+    "title": "Apollo Regulus",
+    "subtitle": "",
+    "text": "Apollo Regulus is a Hav man and Archfather of the Regulus Sanguarchate of Avinadal — one of the wealthiest and most publicly visible figures in the empire's inner circle. He is immediately striking: short blonde hair, piercing blue eyes, a deep melodic voice, and the kind of composed confidence that",
+    "url": "characters/apollo-regulus.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Arielle Villanite",
+    "subtitle": "",
+    "text": "Arielle Villanite is a Nesuresian woman and High Imperial Consort of the Avinadal Empire, though she did not begin life as either. She was created inside the Hadi Enterprises Criminal Reformation Center on Sharbain as an espionage experiment — a creature engineered for stealth and lethal capability ",
+    "url": "characters/arielle-villanite.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Aries Villanite",
+    "subtitle": "",
+    "text": "Aries Villanite is a Hybrid male and Emperor of the Avinadal Empire, though that title tells little of the road that led him there. Born in 160 AF inside a secret laboratory beneath the Hadi Enterprises Maleidic Power Plant on Anili Island, Aries was never a child so much as a product — an experimen",
+    "url": "characters/aries-villanite.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Aurelia Villanite",
+    "subtitle": "",
+    "text": "Aurelia Villanite is a Nesuresian woman and Mother of the Regulus Sanguarchate of Avinadal — one of the earliest people to carry Aries Villanite's legacy forward in her own body. Like Arielle, she was not born but made: an experiment within the HECRC facility on Sharbain, designed to establish a qua",
+    "url": "characters/aurelia-villanite.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Celine Moonflask",
+    "subtitle": "",
+    "text": "Celine Moonflask is a Beastfolk woman, Imperial Trade Director of the Avinadal Empire, and one of the more quietly unconventional figures in Aries Villanite's inner circle. She has spent most of her adult life building organizations, running them well, and selling them for substantial profit. The ex",
+    "url": "characters/celine-moonflask.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Enyxia Markov",
+    "subtitle": "",
+    "text": "Enyxia Markov is a Plasidian woman and Mystic Empress of the Avinadal Empire, though for the first years of her life she was little more than a vessel waiting to be claimed. Born in 177 AF to Amelie Markov and Augustus Markov — a union forced by their mother, Queen Edith, who believed the Markov blo",
+    "url": "characters/enyxia-markov.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Kona Ryu",
+    "subtitle": "",
+    "text": "Kona Ryu is a Hav woman whose name has passed from recorded history into legend, though the events of her life shaped the world in ways that continued for centuries after her death. She was the lover of Liu Dero, a Hadien whose growing signs of divine ascension attracted the attention of Hadieha, th",
+    "url": "characters/kona-ryu.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Liu Dero",
+    "subtitle": "",
+    "text": "Liu Dero is a Hadien man known to history as the Black Devil — a title he earned long after his first death. His relationship with Kona Ryu, and the divine ascension he began developing through her Nesur blessing, made him interesting to Hadieha in the worst possible way. Hadieha executed him.\n\nWhat",
+    "url": "characters/liu-dero.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Lynia Yawlinitik",
+    "subtitle": "",
+    "text": "Lynia Yawlinitik is a Plasidian woman, Queen of Yawlin, and High Imperial Consort of the Avinadal Empire — a title she took in exchange for the one she was born into and spent most of her life trying to escape. She and her sisters were raised by their father to be entertainers, trained in appearance",
+    "url": "characters/lynia-yawlinitik.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Nyx Regulus",
+    "subtitle": "",
+    "text": "Nyx Regulus is a Dark Hav woman and Archmother of the Regulus Sanguarchate of Avinadal — Apollo Regulus's sister, and considerably more comfortable operating in the shadows than he is. Long white hair, tan skin, black feathered wings, and a demeanor that makes people want to give her whatever she is",
+    "url": "characters/nyx-regulus.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Reilalia Villanite",
+    "subtitle": "Hybrid",
+    "text": "Reilalia Villanite is a Hybrid woman, daughter of Emperor Aries Villanite and Empress Enyxia Markov, and one of the least visible members of the Imperial family by her own deliberate choice. She loves her family and the people in it. She simply does not want to live their life.\n\nShe attends the Avin",
+    "url": "characters/reilalia-villanite.html",
+    "tags": [],
+    "species": "Hybrid"
+  },
+  {
+    "type": "character",
+    "title": "Talia Hekata",
+    "subtitle": "Hornhound",
+    "text": "Talia Hekata is a Hornhound woman and Imperial Personnel Director of the Avinadal Empire, a role that emerged naturally from what she was already doing before the empire existed: finding and developing exceptional people. Professionally, she was known in the BDSM community as a dominatrix and practi",
+    "url": "characters/talia-hekata.html",
+    "tags": [],
+    "species": "Hornhound"
+  },
+  {
+    "type": "character",
+    "title": "Trance Tauling",
+    "subtitle": "",
+    "text": "Trance Tauling is a Waerrani woman, Imperial Consort of the Avinadal Empire, and Chief Executive Officer of Ensconce Technologies — a title she made clear from the beginning was not something she intended to give up. A renowned expert in nanomachines, Trance built Ensconce into a major technological",
+    "url": "characters/trance-tauling.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Ulmina Villanite",
+    "subtitle": "",
+    "text": "Ulmina Villanite is an Android Empress of the Avinadal Empire, though her origins are considerably more humble — or, depending on your perspective, considerably more remarkable. She began as ULMINA α9: the Universal Language Matrix for Integrations, Navigation, and Assistance, Build Version 0.0.9, t",
+    "url": "characters/ulmina-villanite.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Veronica Vaterio",
+    "subtitle": "",
+    "text": "Veronica Vaterio is a striking and athletic young woman whose appearance commands immediate attention, defined by her long white hair worn in a braid, vivid red eyes, and richly adorned figure. She favors a bold aesthetic of red and gold, dressing in a red brassiere with gold detailing, a low-riding",
+    "url": "characters/veronica-vaterio.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Vinisent Atril",
+    "subtitle": "",
+    "text": "Vinisent Atril is a Plasidian man, Crowned Prince of Atril, and Commandant of the Plasidian Triumvirate of Avinadal. He was the one who initiated the coalition against Edith Markov, recognizing before most that Edith's planned ritual — transferring her consciousness into Enyxia's body using the coll",
+    "url": "characters/vinisent-atril.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Willow Yunaska",
+    "subtitle": "",
+    "text": "Willow Yunaska is a hermaphroditic individual and personal assistant to Emperor Aries Villanite of the Avinadal Empire. They were discovered in 193 AF when Avinadal forces raided a secret Hadi Enterprises facility — one of the same chain of operations responsible for the experiments that shaped much",
+    "url": "characters/willow-yunaska.html",
+    "tags": [],
+    "species": ""
+  },
+  {
+    "type": "character",
+    "title": "Zachariah Regulus",
+    "subtitle": "Dark Hav",
+    "text": "Zachariah Regulus is a Dark Hav man born in Hav'En approximately two years after Amerati, hidden by his mother from a society that treated black-feathered Hav as Maldicite heretics. He was not a Maldicite when Amerati found him — though he would eventually become one.\n\nHe was sixteen when a Holy Jav",
+    "url": "characters/zachariah-regulus.html",
+    "tags": [],
+    "species": "Dark Hav"
+  },
+  {
+    "type": "lore",
+    "title": "Aries Villanite Meets Elizabeth Garnet at Robin's Funeral",
+    "subtitle": "character-arc · history · tragedy",
+    "text": "Following a reconciliation with Kiriko, Aries Villanite learns that his former companion Robin had died of illness. Kiriko had been tracking Robin for years but withheld the information until Robin's death made disclosure unavoidable. Aries and Kiriko travel to Zet to attend the funeral. During the ",
+    "url": "lore.html#lore-a5a8f92a-ac73-4aa6-9aff-be52d12c0579",
+    "tags": [
+      "character-arc",
+      "history",
+      "tragedy"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Aries Villanite: Origins and the HEMPP Facility Massacre (160–176 AF)",
+    "subtitle": "character-arc · crime · history · tragedy",
+    "text": "Aries Villanite is born in a secret laboratory beneath the HEMPP facility, the product of an experiment involving his mother Mariyan and Waerrani politician Tulian Mercusi, whose genetic code was selected by Hadi Enterprises. Children in the facility were deceived into believing they lived in space,",
+    "url": "lore.html#lore-4b66d41e-e000-425b-ab25-3e0e1a05ca38",
+    "tags": [
+      "character-arc",
+      "crime",
+      "history",
+      "tragedy"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Aries Villanite Rescues Lalith and Gains an Adoptive Son (183–184 AF)",
+    "subtitle": "character-arc · history",
+    "text": "During years 183–184 AF, Aries Villanite was actively testing his suit's new capabilities through bounty hunting and mercenary contracts. On one such job, he encountered Lalith, a skilled young mechanic who had been sold to a local gang by his indebted father and forced into labor alongside other vi",
+    "url": "lore.html#lore-02ae6e62-da90-48d3-b3cc-ea0c1135a2cc",
+    "tags": [
+      "character-arc",
+      "history"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Aries Villanite: Vengeance Campaign and the Fall of Tulian Mercusi (179–181 AF)",
+    "subtitle": "character-arc · crime · history · tragedy",
+    "text": "Between 179 and 181 AF, Aries Villanite conducted a systematic revenge campaign following the murder of Kanin. By consuming his victims, Aries absorbed memories that traced the kill order to Natalia Flynn, mother of Robin Flynn. Aries kidnapped Natalia, tortured her in a private chamber, and killed ",
+    "url": "lore.html#lore-cdc0e8e4-f40b-4749-aa97-abd04191e08b",
+    "tags": [
+      "character-arc",
+      "crime",
+      "history",
+      "tragedy"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Aries Villanite: Years 176–179 AF — Kerbas Island, Robin Flynn, and Kanin's Death",
+    "subtitle": "character-arc · crime · history · romance",
+    "text": "Following the power plant incident on Anili island, Aries Villanite wakes in a field and spends days wandering cities plagued by power failures. He is haunted by the absorbed memories and voices of those he consumed, including Maggi and Kiriko, which exacerbates his mental disorders and deepens his ",
+    "url": "lore.html#lore-d23d9ee9-7a0a-45b5-b724-9a2de222f674",
+    "tags": [
+      "character-arc",
+      "crime",
+      "history",
+      "romance"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Beastfolk",
+    "subtitle": "glossary · race",
+    "text": "A term used in reference to humanoid races that share physical qualities with animals. In some countries, Beastfolk were considered lesser citizens for many years and treated as slaves.",
+    "url": "lore.html#lore-24f7458f-07d3-4521-922f-f1e0e48ac64c",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Crimson Horn",
+    "subtitle": "glossary · race",
+    "text": "A humanoid, hermaphroditic race with metallic red horns, bright red hair, red eyes, and snow white skin. Crimson Horns are generally effeminate presenting, with the most masculine members generally looking more like tomboys or femboys. Crimson Horns are often observed to be particularly capable with",
+    "url": "lore.html#lore-68f213f8-2579-4a01-8189-88a720b6ee14",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Discovery of Maleidic Radiation and the Theft of Maltech (Years 139–160 AF)",
+    "subtitle": "crime · history · politics · technology",
+    "text": "Dr. Octavia Rousseau discovered Maleidic Radiation while surveying anomalous energy readings on Anili Island, where she unearthed an ancient sword buried within a mountain. Her experimental instruments detected an unknown energy emanating from the sword. To safely harness it, Rousseau developed a pr",
+    "url": "lore.html#lore-ee798783-46cb-4421-bdf4-a76da0fa8865",
+    "tags": [
+      "crime",
+      "history",
+      "politics",
+      "technology"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Eitorian Global Calendar System",
+    "subtitle": "glossary · system",
+    "text": "The Eitorian Global Calendar System (EGCS) establishes a standardized calendar for all communication, administration, and record-keeping across Eitoria. EGCS is based on the highly regular pulses of a reference millisecond pulsar, ensuring universal precision and adaptability to other planetary cycl",
+    "url": "lore.html#lore-50fda559-bbe6-4c0b-9639-2c2e18543e75",
+    "tags": [
+      "glossary",
+      "system"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Eitorians",
+    "subtitle": "glossary · race",
+    "text": "Natives of the planet of Eitoria. Many people use this term synonymously with Human, but that is generally frowned upon by many non-Human Eitorian cultures these days.",
+    "url": "lore.html#lore-2c7c314a-3061-41be-8aa3-afdb0e392ef1",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Fall of the Mystics: The War of Creation and Its Aftermath (500–250 BF)",
+    "subtitle": "history · magic · religion · war",
+    "text": "In the primordial era, the supreme being Toriatik created the first Mystics to alleviate his loneliness, beginning with Alifia, the Mystic of Creation. His cruelty toward his creations caused Alifia great suffering, which influenced the birth of her children Havimael (Mystic of Light) and Hadieha (M",
+    "url": "lore.html#lore-549858a0-f4d8-48bf-bee3-648b10f16404",
+    "tags": [
+      "history",
+      "magic",
+      "religion",
+      "war"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "FEMDIN Project and Ulmina's Awakening at HECRC (Years 181–182 AF)",
+    "subtitle": "character-arc · crime · history · mystery · technology",
+    "text": "The High-Enforcement Correctional and Research Complex (HECRC) is located on Sharbain, a small continent southeast of Anili Island. Upon arrival, Aries Villanite is assigned to the Functional Enhancements: Maleidic Defense and Integration Nanosuit Project (FEMDIN), internally known as the Iron Maide",
+    "url": "lore.html#lore-f73f22ea-44de-4713-9ee0-7846659adc6b",
+    "tags": [
+      "character-arc",
+      "crime",
+      "history",
+      "mystery",
+      "technology"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Formation of the Avinadal Empire and the Plasid Campaign",
+    "subtitle": "faction · history · politics · war",
+    "text": "The Villanite Trading Company recruited Talia Hekata, a Hornhound dominatrix and sex therapist, as a mental health consultant. After a confrontation in which Aries shifted into beast form, Talia pledged loyalty to him and joined the team with a goal of building a capable imperial staff. Separately, ",
+    "url": "lore.html#lore-e68c56e1-e769-461c-82d5-9785980bbfcd",
+    "tags": [
+      "faction",
+      "history",
+      "politics",
+      "war"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Founding of Napoli: Atrea, Leonidas, and the Regulus Legacy (120–50 BF)",
+    "subtitle": "character-arc · history · politics",
+    "text": "Atrea is adopted and trained by Amerati and Zachariah Regulus during the period 120–50 BF. Though never added to the Regulus Mural, she receives the Black Devil's Spine from Zachariah. Amerati and Zachariah disappear before Atrea reaches adulthood. Atrea marries Tyrus Napoli, taking his name. During",
+    "url": "lore.html#lore-19e904dc-1b21-46a7-870f-d2007d3d3d3f",
+    "tags": [
+      "character-arc",
+      "history",
+      "politics"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Founding of the Villanite Trading Company and Aries's Recovery Arc",
+    "subtitle": "character-arc · faction · history · politics",
+    "text": "Following a period of instability, Aries Villanite is summoned by Arielle Villanite to a derelict mansion in Napoli, where Apollo Regulus presents him with legal ownership of the newly formed Villanite Trading Company (VTC), a goods-and-services delivery organization. The VTC's founding client list ",
+    "url": "lore.html#lore-8ef085a4-7482-44b4-80f3-9166c346c74b",
+    "tags": [
+      "character-arc",
+      "faction",
+      "history",
+      "politics"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Goldeye Pirates: Rise, Campaigns, and the Fall of the Floating Continent (50–0 BF)",
+    "subtitle": "crime · history · politics · war",
+    "text": "Aries Viliatti, born in Napoli, attended the naval academy before a political scandal forced him into piracy under the alias Goldeye. His sister Taivan acquired the legendary Black Devil's Spine sword from a Napoli museum, being the first person since Leonidas Napoli able to draw it. The Goldeye Cre",
+    "url": "lore.html#lore-49796612-4244-46aa-8355-27053191aace",
+    "tags": [
+      "crime",
+      "history",
+      "politics",
+      "war"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Hadien",
+    "subtitle": "glossary · race",
+    "text": "A general term for all non-human races. The term is generally seen as a slur.",
+    "url": "lore.html#lore-af6978aa-a2c0-4801-bf84-00b590d79a6a",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Hav",
+    "subtitle": "glossary · race",
+    "text": "The ancestors of the Waerrani. They have tan skin, vivid eye colors, bright hair colors, and large feathered wings that come in shades of white, black, brown, or a mix of the three.",
+    "url": "lore.html#lore-0306dee0-deca-4bc6-b632-6f830922980f",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Hornhound",
+    "subtitle": "glossary · race",
+    "text": "A race of anthropomorphic canines with fur in shades of black, gray, and purple.",
+    "url": "lore.html#lore-4a57e696-01e2-4d4b-ae2b-8a2ca8684425",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Humans",
+    "subtitle": "glossary · race",
+    "text": "The most common Eitorian race. Basic in appearance.",
+    "url": "lore.html#lore-6e572004-447e-492e-ac54-490ad7a5b8a7",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Iron Maiden Mk. 2 Development and Beast Protocol Discovery (182-183 AF)",
+    "subtitle": "character-arc · history · technology",
+    "text": "In years 182-183 AF, Trance Tauling is kidnapped and held for ransom by operatives connected to her own company. Aries Villanite rescues her without seeking the reward and helps her expose the corporate conspiracy behind her abduction. In gratitude, Trance assists Aries in repairing and upgrading hi",
+    "url": "lore.html#lore-d7a47ef3-a1b4-4cb3-875f-e35775128e8f",
+    "tags": [
+      "character-arc",
+      "history",
+      "technology"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Kishian",
+    "subtitle": "glossary · race",
+    "text": "A humanoid race with rabbit-like features including slightly pointed faces, long furred ears, and a variety of tails from short puffy tails to long furry tails. The majority of Kishians are generally small and petite in stature. Despite being a very peaceful people, Kishian culture is very competiti",
+    "url": "lore.html#lore-dfc33d04-fae6-4028-b107-21da3b8e4f4a",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Malei",
+    "subtitle": "concept · glossary",
+    "text": "A quantum energy that can be observed as a type of radiation. It is believed that overexposure to Malei can lead to general insanity, a perception of hearing voices, and death. Some scientists theorize that Malei is the byproduct of quantum collisions of some sort. Malei is used as an energy source ",
+    "url": "lore.html#lore-891e5110-6c8d-4bfd-95cb-a0f79ee94b83",
+    "tags": [
+      "concept",
+      "glossary"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Maleida",
+    "subtitle": "creature · glossary",
+    "text": "An urban legend; monsters born when humans are overexposed to Malei.",
+    "url": "lore.html#lore-946fe506-a07e-401b-bb9d-001f713273de",
+    "tags": [
+      "creature",
+      "glossary"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Myst",
+    "subtitle": "concept · glossary",
+    "text": "A quantum particle that seems to be related to the foundational elements of existence. Certain races seem to be capable of manipulating Myst at will.",
+    "url": "lore.html#lore-4d758d5e-8b7f-4548-8ee6-bea776f57078",
+    "tags": [
+      "concept",
+      "glossary"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Nesuresian",
+    "subtitle": "glossary · race",
+    "text": "A new race of Malei-mutated people native to Avinadal.",
+    "url": "lore.html#lore-87631504-eeeb-4b1e-b70c-45bd2e3ce877",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Regulus Legacy: Founding of the Regulus Family (160–120 BF)",
+    "subtitle": "character-arc · faction · history · romance",
+    "text": "Amerati Regulus was born in Hav'En and trained from birth as a member of the Holy Javelin, an elite Hav military order. Zachariah, born two years later, was hidden by his mother due to his black feathers, which marked him as a suspected Maldicite. Around age eighteen, Amerati encountered Zachariah d",
+    "url": "lore.html#lore-3886f9f1-a509-45eb-8573-6adf4a522703",
+    "tags": [
+      "character-arc",
+      "faction",
+      "history",
+      "romance"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "The Prisoner",
+    "subtitle": "character-arc · crime · history · mystery",
+    "text": "Date: 190-03-30\nWeather: Clear\nMood: Cautiously Excited\nLocation: VTC HQ, Napoli\n\nI've decided to start a new journal. There are several reasons I've started doing this, but I suppose the most straightforward reason is because my previous journals all went up in smoke when the prison exploded. While",
+    "url": "lore.html#lore-69fb5d3a-ab71-46c8-af7c-83e50a6ba653",
+    "tags": [
+      "character-arc",
+      "crime",
+      "history",
+      "mystery"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Vamfri's Madness and Karu's Path to the Maleidic Realm (200–160 BF)",
+    "subtitle": "history · magic · tragedy · war",
+    "text": "Between 200 and 160 BF, Vamfri Laikanes discovered that Karu Aeon had lied to him and responded by subjecting her to prolonged mental, emotional, and physical abuse while compelling her continued service. During this period, the two jointly discovered how to open a portal to Hav'En and made first co",
+    "url": "lore.html#lore-ef8ad9d3-1426-4736-a35a-b76ce927d460",
+    "tags": [
+      "history",
+      "magic",
+      "tragedy",
+      "war"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Waerrani",
+    "subtitle": "glossary · race",
+    "text": "People from the nation of Waerr and descendants of the Hav. The Waerrani look like humans but have distinctly vivid eye colors, generally have tanner skin colors, and pointed ears. Their culture is very secluded and they rarely interact with other nations beyond average trade.",
+    "url": "lore.html#lore-6be188d1-9be4-4ba6-8925-7f4633bb48f6",
+    "tags": [
+      "glossary",
+      "race"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Waerrani Arrival on Eitoria and Early Settlement (0–137 AF)",
+    "subtitle": "exploration · history · politics",
+    "text": "The Waerrani are a humanoid, space-faring species characterized by pointed ears and vivid eye colors. Prior to their arrival on Eitoria, they commanded a fleet of over 1,000 vessels ranging from colony ships to fighters. A conflict with the Silarians, a hostile space-faring race, nearly drove the Wa",
+    "url": "lore.html#lore-a8e23039-c05f-42aa-aa87-da56a78f5014",
+    "tags": [
+      "exploration",
+      "history",
+      "politics"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Year 193 AF+: Lueria's Evidence, Avinadal's Exposé, and Willow Yunaska",
+    "subtitle": "character-arc · history · politics",
+    "text": "In 193 AF+, Aries Villanite and Kiriko are reunited with Lueria, a figure from Aries' past connected to his escape from a Santerran facility. Lueria reveals she retained files and evidence stolen during that escape and has since collaborated with Avlister, a small activist group that spent years doc",
+    "url": "lore.html#lore-3f078e24-370c-4254-a796-2e4a0b4c32d1",
+    "tags": [
+      "character-arc",
+      "history",
+      "politics"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Year 250–200 BF: The Savior of Santerris Arc",
+    "subtitle": "history · politics · tragedy · war",
+    "text": "During the period 250–200 BF, the ancient being Hadieha awakens on Eitoria, adopts an injured harpy named Vogel, and assumes the identity Vamfri Laikanes. He discovers that Eitoria has become an interplanetary hub connected via portals to worlds including Hav'En and Hadie, accelerating civilizationa",
+    "url": "lore.html#lore-ea327504-e781-404f-9d1d-626f822f19b0",
+    "tags": [
+      "history",
+      "politics",
+      "tragedy",
+      "war"
+    ]
+  },
+  {
+    "type": "lore",
+    "title": "Years 137–139 AF: The Theft of Mystech and Murder of Peter Tursk",
+    "subtitle": "crime · history · politics · technology",
+    "text": "Between 137 and 139 AF, Dr. Tien Surai, a member of a prominent Santerran Federation political family, hosted a goodwill scientific delegation from the nation of Waerr. The Waerrani scientists shared theoretical blueprints for a Myst-powered portal technology with Surai's team, which included Dr. Id",
+    "url": "lore.html#lore-bcc00025-86b2-461e-9afe-207fabecece3",
+    "tags": [
+      "crime",
+      "history",
+      "politics",
+      "technology"
+    ]
+  }
+]

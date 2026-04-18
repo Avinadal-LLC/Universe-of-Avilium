@@ -1,0 +1,125 @@
+{% extends "base.html.j2" %}
+{% set active_page = 'characters' %}
+
+{% block title %}{{ char.name }} &mdash; Universe of Avilium{% endblock %}
+
+{% block content %}
+
+<div class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
+
+  <a href="../characters.html" class="back-link">&larr; All Characters</a>
+
+  <!-- Character Header -->
+  <div class="char-header">
+    <div class="char-header__portrait">
+      {% if char.portrait_url %}
+      <img src="{{ char.portrait_url }}" alt="{{ char.name }}">
+      {% else %}
+      {{ char.initials }}
+      {% endif %}
+    </div>
+    <div class="char-header__info">
+      <h1 class="char-header__name">{{ char.name }}</h1>
+      <div class="char-header__tags">
+        {% if char.species_label %}<span class="badge badge--species">{{ char.species_label }}</span>{% endif %}
+        {% if char.gender_label  %}<span class="badge badge--gender">{{ char.gender_label }}</span>{% endif %}
+        {% if char.canonStatus   %}<span class="badge badge--canon">{{ char.canonStatus }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Aliases -->
+  {% if char.aliases %}
+  <div class="char-section">
+    <div class="char-section__heading">Known Aliases</div>
+    <ul class="aliases-list">
+      {% for alias in char.aliases %}
+      <li class="aliases-list__item">
+        {{ alias.alias }}
+        {% if alias.type %}<span class="aliases-list__type">({{ alias.type }})</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <!-- Biography -->
+  {% if char.bio %}
+  <div class="char-section">
+    <div class="char-section__heading">Biography</div>
+    <div class="char-section__text">
+      {% for paragraph in char.bio.split('\n\n') %}
+      <p>{{ paragraph | trim }}</p>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Personality Notes -->
+  {% if char.personalityNotes %}
+  <div class="char-section">
+    <div class="char-section__heading">Personality</div>
+    <div class="char-section__text">
+      {% for paragraph in char.personalityNotes.split('\n\n') %}
+      <p>{{ paragraph | trim }}</p>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Lore Entries -->
+  {% if char_entries %}
+  <div class="char-section">
+    <div class="char-section__heading">Lore Records</div>
+    <div class="lore-accordions">
+      {% for entry in char_entries %}
+      <details class="lore-accordion">
+        <summary>
+          <span class="lore-accordion__title">{{ entry.title }}</span>
+          <span class="lore-accordion__meta">
+            {% if entry.canonStatus %}<span class="badge badge--canon">{{ entry.canonStatus }}</span>{% endif %}
+          </span>
+          <span class="lore-accordion__indicator">&#9658;</span>
+        </summary>
+        <div class="lore-accordion__body">
+          {% if entry.tags %}
+          <div class="lore-accordion__tags">
+            {% for tag in entry.tags %}<span class="badge badge--tag">{{ tag }}</span>{% endfor %}
+          </div>
+          {% endif %}
+          {% for paragraph in entry.content.split('\n\n') %}
+          <p>{{ paragraph | trim }}</p>
+          {% endfor %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Relationships -->
+  {% if char.rel_by_type %}
+  <div class="char-section">
+    <div class="char-section__heading">Relationships</div>
+    <div class="rel-groups">
+      {% for rel_type, rels in char.rel_by_type.items() %}
+      <div class="rel-group">
+        <div class="rel-group__type">{{ rel_type | replace('_', ' ') }}</div>
+        <div class="rel-group__names">
+          {% for rel in rels %}
+          {% if rel.id in char_id_to_slug %}
+          <a href="../characters/{{ char_id_to_slug[rel.id] }}.html" class="rel-group__name">{{ rel.name }}</a>
+          {% else %}
+          <span class="rel-group__name">{{ rel.name }}</span>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+</div>
+
+{% endblock %}

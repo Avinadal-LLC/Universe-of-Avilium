@@ -1,0 +1,88 @@
+{% extends "base.html.j2" %}
+{% set active_page = 'lore' %}
+
+{% block title %}Lore &mdash; Universe of Avilium{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="page-header__eyebrow">Canonical Archive</div>
+    <h1 class="page-header__title">Lore</h1>
+    <p class="page-header__sub">
+      <span id="lore-count">{{ lore_count }}</span> canonical entries
+    </p>
+  </div>
+
+  <!-- Tag Pills -->
+  <div class="tag-pills" role="group" aria-label="Filter by tag">
+    <button class="tag-pill tag-pill--showall" type="button">Show All</button>
+    {% for tag in tag_names %}
+    <button class="tag-pill" type="button" data-tag="{{ tag }}">{{ tag }}</button>
+    {% endfor %}
+  </div>
+
+  <!-- Lore Search -->
+  <div class="lore-search-wrap">
+    <input
+      type="search"
+      id="lore-search"
+      placeholder="Search lore entries&hellip;"
+      aria-label="Search lore">
+  </div>
+
+  <!-- Lore Entries -->
+  <div class="lore-list" id="lore-list">
+    {% for entry in lore_entries %}
+    <article
+      class="lore-entry"
+      id="lore-{{ entry.id }}"
+      data-canon="{{ entry.canonStatus or '' }}"
+      data-tags="{{ entry.tags | join(' ') }}"
+      data-title="{{ entry.title_search }}"
+      data-content="{{ entry.content_search }}">
+
+      <div class="lore-entry__header">
+        <span class="lore-entry__category">{{ entry.loreType | replace('_', ' ') | title }}</span>
+        <span class="lore-entry__canon-tag">
+          {% if entry.canonStatus == 'canonical' %}&#10022; Canon
+          {% elif entry.canonStatus %}{{ entry.canonStatus | title }}
+          {% endif %}
+        </span>
+      </div>
+
+      <div class="lore-entry__body">
+        <h2 class="lore-entry__title">{{ entry.title }}</h2>
+
+        {% if entry.tags %}
+        <div class="lore-entry__tags">
+          {% for tag in entry.tags %}<span class="badge badge--tag">{{ tag }}</span>{% endfor %}
+        </div>
+        {% endif %}
+
+        {% if entry.linked_characters %}
+        <div class="lore-entry__chars">
+          <span class="lore-entry__chars-label">Featured:</span>
+          {% for char in entry.linked_characters %}
+          <a href="characters/{{ char.slug }}.html" class="lore-entry__char-link">{{ char.name }}</a>
+          {% if not loop.last %}&middot;{% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="lore-entry__content">
+          {% for paragraph in entry.content.split('\n\n') %}
+          <p>{{ paragraph | trim }}</p>
+          {% endfor %}
+        </div>
+      </div>
+
+    </article>
+    {% endfor %}
+  </div>
+
+</div>
+
+{% endblock %}

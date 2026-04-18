@@ -1,0 +1,121 @@
+{% extends "base.html.j2" %}
+{% set active_page = 'home' %}
+
+{% block title %}Universe of Avilium{% endblock %}
+
+{% block content %}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero__eyebrow">Avinadal LLC &middot; Canonical Archive</div>
+  <div class="hero__rule-wrap">
+    <div class="hero__rule-line"></div>
+    <div class="hero__glyph">&#10070;</div>
+    <div class="hero__rule-line right"></div>
+  </div>
+  <h1 class="hero__title">Universe of Avilium</h1>
+  <p class="hero__tagline">A living mythology of dynasties, forces, and the lives between them.</p>
+</section>
+
+<!-- Content Warning -->
+<div class="container">
+  <div class="callout">
+    <div class="callout__label">Content Notice</div>
+    <p class="callout__text">
+      Content written and shared within the Avilium Universe may contain various triggers for
+      people sensitive to dark, violent, sexual, and/or taboo topics.
+    </p>
+  </div>
+</div>
+
+<!-- World Intro -->
+<section class="world-intro">
+  <div class="container">
+    <p class="lead">
+      The Avilium Universe is a living creative mythology spanning imperial dynasties, ancient
+      energy systems, and characters whose lives have quietly shaped civilizations.
+    </p>
+    <p>
+      The year is 193 of the After-Fall calendar. The newly founded Avinadal Empire stands at the
+      center of a fractured world &mdash; built by one man from grief and conviction, named after
+      a ghost. At its edges, the energies of Myst and Malei continue their ancient tension: one
+      the force of space, one the force of time, both running beneath the surface of every
+      significant life in these records.
+    </p>
+    <p>
+      What you find here is the canonical archive of that universe &mdash; characters, lore, and
+      the threads that bind them. More will be revealed.
+    </p>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats-bar" aria-label="Archive statistics">
+  <div class="stat">
+    <span class="stat__value">{{ char_count }}</span>
+    <span class="stat__label">Characters</span>
+  </div>
+  <div class="stat">
+    <span class="stat__value">{{ lore_count }}</span>
+    <span class="stat__label">Lore Entries</span>
+  </div>
+  <div class="stat">
+    <span class="stat__value">{{ tag_count }}</span>
+    <span class="stat__label">Lore Tags</span>
+  </div>
+</section>
+
+<!-- Featured Characters -->
+{% if featured_chars %}
+<section class="featured-section">
+  <div class="container">
+    <div class="section-eyebrow">Featured Characters</div>
+    <div class="char-grid">
+      {% for char in featured_chars %}
+      <article class="char-card"
+        data-name="{{ char.name | lower }}"
+        data-species="{{ char.species_label }}"
+        data-bio="{{ (char.bio or '')[:200] | lower }}">
+        <div class="char-card__portrait">
+          {% if char.portrait_url %}
+          <img src="{{ char.portrait_url }}" alt="{{ char.name }}" loading="lazy">
+          {% else %}
+          {{ char.initials }}
+          {% endif %}
+        </div>
+        <div class="char-card__body">
+          <div class="char-card__name">{{ char.name }}</div>
+          <div class="char-card__meta">
+            {% if char.species_label %}<span class="badge badge--species">{{ char.species_label }}</span>{% endif %}
+            {% if char.canon_status %}<span class="badge badge--canon">{{ char.canon_status }}</span>{% endif %}
+          </div>
+          {% if char.bio_excerpt %}
+          <p class="char-card__excerpt">{{ char.bio_excerpt }}</p>
+          {% endif %}
+        </div>
+        <a href="characters/{{ char.slug }}.html" class="char-card__link">View Record</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="section-eyebrow" style="text-align:center;">Explore the Archive</div>
+    <div class="cta-grid">
+      <a href="characters.html" class="cta-tile">
+        <span class="cta-tile__label">Characters</span>
+        <span class="cta-tile__sub">{{ char_count }} canonical records</span>
+      </a>
+      <a href="lore.html" class="cta-tile">
+        <span class="cta-tile__label">Lore</span>
+        <span class="cta-tile__sub">{{ lore_count }} entries &middot; {{ tag_count }} tags</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

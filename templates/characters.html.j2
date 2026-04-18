@@ -1,0 +1,77 @@
+{% extends "base.html.j2" %}
+{% set active_page = 'characters' %}
+
+{% block title %}Characters &mdash; Universe of Avilium{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="page-header__eyebrow">Canonical Archive</div>
+    <h1 class="page-header__title">Characters</h1>
+    <p class="page-header__sub">
+      <span id="char-count">{{ char_count }}</span> canonical records
+    </p>
+  </div>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar" role="search" aria-label="Filter characters">
+    <div class="filter-bar__inner">
+      <input
+        type="search"
+        id="char-search"
+        placeholder="Search by name or biography&hellip;"
+        aria-label="Search characters">
+
+      {% if all_species %}
+      <select id="filter-species" aria-label="Filter by species">
+        <option value="">All species</option>
+        {% for s in all_species %}
+        <option value="{{ s }}">{{ s }}</option>
+        {% endfor %}
+      </select>
+      {% endif %}
+
+      <button id="filter-clear" class="filter-bar__clear" type="button">Clear</button>
+    </div>
+  </div>
+
+  <!-- Character Grid -->
+  <div class="char-grid" id="char-grid">
+    {% for char in characters %}
+    <article class="char-card"
+      data-name="{{ char.name | lower }}"
+      data-species="{{ char.species_label }}"
+      data-bio="{{ (char.bio or '')[:300] | lower }}">
+      <div class="char-card__portrait">
+        {% if char.portrait_url %}
+        <img src="{{ char.portrait_url }}" alt="{{ char.name }}" loading="lazy">
+        {% else %}
+        {{ char.initials }}
+        {% endif %}
+      </div>
+      <div class="char-card__body">
+        <div class="char-card__name">{{ char.name }}</div>
+        <div class="char-card__meta">
+          {% if char.species_label %}<span class="badge badge--species">{{ char.species_label }}</span>{% endif %}
+          {% if char.canon_status  %}<span class="badge badge--canon">{{ char.canon_status }}</span>{% endif %}
+        </div>
+        {% if char.bio_excerpt %}
+        <p class="char-card__excerpt">{{ char.bio_excerpt }}</p>
+        {% endif %}
+      </div>
+      <a href="characters/{{ char.slug }}.html" class="char-card__link">View Record</a>
+    </article>
+    {% endfor %}
+  </div>
+
+  <!-- Empty state -->
+  <div id="no-results" class="no-results hidden">
+    No characters match the current filters.
+  </div>
+
+</div>
+
+{% endblock %}

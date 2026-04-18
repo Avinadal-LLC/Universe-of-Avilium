@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Universe of Avilium{% endblock %}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cinzel@5/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/eb-garamond@5/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/space-mono@5/index.css">
+  <link rel="stylesheet" href="{{ root_path }}static/css/style.css">
+</head>
+<body>
+
+<div class="alpha-banner" role="alert">
+  <span class="alpha-banner__label">Alpha</span>
+  <span class="alpha-banner__text">
+    This site is an alpha-stage test of our Lore Documentation &rarr; Published Content data
+    conversion pipeline. All content, structure, and presentation are subject to change until
+    a full release is declared.
+  </span>
+</div>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a href="{{ root_path }}index.html" class="nav__wordmark">Avilium</a>
+    <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <ul class="nav__links" hidden>
+      <li><a href="{{ root_path }}index.html"{% if active_page == 'home' %} aria-current="page"{% endif %}>Home</a></li>
+      <li><a href="{{ root_path }}characters.html"{% if active_page == 'characters' %} aria-current="page"{% endif %}>Characters</a></li>
+      <li><a href="{{ root_path }}lore.html"{% if active_page == 'lore' %} aria-current="page"{% endif %}>Lore</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__rule"></div>
+  <div class="site-footer__mark">&#10070; Avilium Universe &#10070;</div>
+  <ul class="site-footer__links">
+    <li><a href="https://avinadal.com/discord"  target="_blank" rel="noopener">Discord</a></li>
+    <li><a href="https://avinadal.com/patreon"  target="_blank" rel="noopener">Patreon</a></li>
+    <li><a href="https://archiveofourown.org/collections/avilium" target="_blank" rel="noopener">Ao3 Collection</a></li>
+    <li><a href="https://github.com/Avinadal-LLC" target="_blank" rel="noopener">GitHub</a></li>
+  </ul>
+  <div class="site-footer__meta">
+    Universe of Avilium &copy; 2025&ndash;2026 by Avinadal LLC is licensed under
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>
+  </div>
+</footer>
+
+<script src="{{ root_path }}static/js/filter.js"></script>
+</body>
+</html>
