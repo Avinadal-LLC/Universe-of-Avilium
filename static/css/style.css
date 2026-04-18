@@ -1012,3 +1012,12 @@ h4 {
 
 .site-footer__meta a { color: var(--cream-dim); text-decoration: underline; }
 .site-footer__meta a:hover { color: var(--gold); }
+
+.site-footer__ai-note {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  color: var(--cream-muted);
+  opacity: 0.7;
+  margin-top: var(--sp-1);
+}
