@@ -6,3 +6,4 @@ venv/
 .venv/
 generate.py
 requirements.txt
+.claude/
