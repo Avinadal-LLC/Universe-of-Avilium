@@ -1,4 +1,0 @@
-requests
-jinja2
-python-slugify
-psycopg2-binary
