@@ -52,6 +52,105 @@ platform URLs change:
 - Discord: `https://avinadal.com/discord`
 - Patreon: `https://avinadal.com/patreon`
 
+## Naming Conventions
+
+This project follows the Avinadal Semantic Naming Conventions. Names are ambient documentation — a well-named symbol explains what it does or represents without a comment.
+
+### General Rules
+
+- **Never abbreviate** — `btn`, `nav`, `usr`, `hdr` are banned; spell them out
+- **No generic nouns** — `card`, `item`, `data` tell you nothing; qualify them
+- **Consistency** — pick one word per concept and use it everywhere
+
+---
+
+### CSS Classes (BEM, fully spelled)
+
+Custom component classes use BEM with fully spelled-out block and element names. No abbreviations in block, element, or modifier names.
+
+```css
+/* ❌ */
+.char-card {}
+.char-card__hdr {}
+.btn--pri {}
+
+/* ✅ */
+.character-profile-card {}
+.character-profile-card__canonical-display-name {}
+.character-profile-card__lore-excerpt-for-public-profile {}
+.character-profile-card--featured-on-homepage {}
+.site-navigation__primary-menu-item {}
+.site-navigation__primary-menu-item--currently-active {}
+```
+
+Tailwind component compositions also use full semantic names:
+```css
+@layer components {
+  .character-summary-card-for-public-profile-pages { @apply ...; }
+  .lore-entry-card-for-character-detail-pages { @apply ...; }
+}
+```
+
+---
+
+### JavaScript / TypeScript
+
+**Variables and parameters:** domain role, not type
+```js
+// ❌
+const data = await fetch('/chars');
+const x = chars.filter(c => c.active);
+
+// ✅
+const activeCharactersForPublicGallery = await fetchActiveCharactersForPublicGallery();
+const featuredCharactersForHomepageBanner = activeCharacters.filter(character => character.isFeatureOnHomepage);
+```
+
+**Functions:** verb-first full phrase
+```js
+// ❌
+function filterChars(chars) {}
+function setupNav() {}
+
+// ✅
+function filterCharactersBySelectedFactionAndSpecies(characters, selectedFactionId, selectedSpeciesId) {}
+function initializePrimaryNavigationWithHamburgerToggle() {}
+```
+
+**Booleans:** `is`, `has`, `can`, `should` prefix
+```js
+// ❌
+let active = true;
+let loaded = false;
+
+// ✅
+let isFilterPanelVisible = true;
+let hasCharacterDataFinishedLoading = false;
+```
+
+---
+
+### File Names
+
+- Templates: `kebab-case` matching content — `character-detail-page.html.j2`, `lore-entry-card.html.j2`
+- Scripts: `kebab-case` describing function — `initialize-filter-panel.js`, `fetch-character-data-for-gallery.js`
+- Stylesheets: `kebab-case` — `character-profile-card.css`, `site-navigation.css`
+
+---
+
+### REST Query Parameters (when calling Atlas API)
+
+Explicit, no abbreviations:
+```
+# ❌
+?nl=canonical&p=1
+
+# ✅
+?narrative_layer=canonical&page_number=1&results_per_page=20
+```
+
+---
+
 ## GR Protocol
 
 Track GR scans and apply the Gradual Refinement protocol per global CLAUDE.md.
