@@ -48,9 +48,7 @@
   <div class="char-section">
     <div class="char-section__heading">Biography</div>
     <div class="char-section__text">
-      {% for paragraph in char.bio.split('\n\n') %}
-      <p>{{ paragraph | trim }}</p>
-      {% endfor %}
+      {{ char.bio | render_content("../") }}
     </div>
   </div>
   {% endif %}
@@ -60,9 +58,7 @@
   <div class="char-section">
     <div class="char-section__heading">Personality</div>
     <div class="char-section__text">
-      {% for paragraph in char.personalityNotes.split('\n\n') %}
-      <p>{{ paragraph | trim }}</p>
-      {% endfor %}
+      {{ char.personalityNotes | render_content("../") }}
     </div>
   </div>
   {% endif %}
@@ -87,9 +83,7 @@
             {% for tag in entry.tags %}<span class="badge badge--tag">{{ tag }}</span>{% endfor %}
           </div>
           {% endif %}
-          {% for paragraph in entry.content.split('\n\n') %}
-          <p>{{ paragraph | trim }}</p>
-          {% endfor %}
+          {{ entry.content | render_content("../") }}
         </div>
       </details>
       {% endfor %}

@@ -42,7 +42,7 @@
 
   /* Typography */
   --font-display: 'Cinzel', Georgia, serif;
-  --font-body:    'EB Garamond', Garamond, Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
   --font-mono:    'Space Mono', monospace;
 
   /* Spacing */
@@ -64,7 +64,7 @@ body {
   background-color: var(--void);
   color: var(--cream);
   font-family: var(--font-body);
-  font-size: 19.8px;
+  font-size: 21.8px;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
 }
@@ -84,13 +84,13 @@ h1, h2, h3 {
   font-weight: 700;
   line-height: 1.2;
 }
-h1 { font-size: clamp(1.8rem, 5vw, 3rem);   color: var(--gold-light); }
-h2 { font-size: clamp(1.3rem, 3vw, 2rem);   color: var(--cream); }
-h3 { font-size: 1.2rem;                      color: var(--gold-light); }
+h1 { font-size: clamp(1.98rem, 5vw, 3.3rem);  color: var(--gold-light); }
+h2 { font-size: clamp(1.43rem, 3vw, 2.2rem); color: var(--cream); }
+h3 { font-size: 1.32rem;                      color: var(--gold-light); }
 
 h4 {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   font-weight: 400;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -122,7 +122,7 @@ h4 {
 
 .alpha-banner__label {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.25em;
   color: var(--gold);
@@ -132,7 +132,7 @@ h4 {
 
 .alpha-banner__text {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.04em;
   color: var(--cream-dim);
   line-height: 1.7;
@@ -158,7 +158,7 @@ h4 {
 
 .nav__wordmark {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.16rem;
   font-weight: 700;
   color: var(--gold);
   letter-spacing: 0.12em;
@@ -170,7 +170,7 @@ h4 {
   background: none;
   border: none;
   color: var(--gold);
-  font-size: 1.4rem;
+  font-size: 1.54rem;
   cursor: pointer;
   padding: var(--sp-2);
   line-height: 1;
@@ -193,7 +193,7 @@ h4 {
 
 .nav__links a {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--cream-dim);
@@ -250,7 +250,7 @@ h4 {
 
 .hero__eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--gold);
@@ -272,11 +272,11 @@ h4 {
   background: linear-gradient(90deg, transparent, var(--gold));
 }
 .hero__rule-line.right { background: linear-gradient(90deg, var(--gold), transparent); }
-.hero__glyph { font-family: var(--font-display); color: var(--gold); font-size: 1.1rem; }
+.hero__glyph { font-family: var(--font-display); color: var(--gold); font-size: 1.21rem; }
 
 .hero__title {
   font-family: var(--font-display);
-  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-size: clamp(2.64rem, 6vw, 4.4rem);
   font-weight: 700;
   color: var(--gold-light);
   letter-spacing: 0.04em;
@@ -287,7 +287,7 @@ h4 {
 
 .hero__tagline {
   font-family: var(--font-body);
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(1.1rem, 2vw, 1.32rem);
   font-style: italic;
   color: var(--cream-dim);
   max-width: 64ch;
@@ -307,7 +307,7 @@ h4 {
 
 .callout__label {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   color: var(--gold);
@@ -316,7 +316,7 @@ h4 {
 
 .callout__text {
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--cream-dim);
   line-height: 1.7;
   margin: 0;
@@ -330,7 +330,7 @@ h4 {
 
 .world-intro p {
   font-family: var(--font-body);
-  font-size: 1.1rem;
+  font-size: 1.21rem;
   line-height: 1.9;
   max-width: 68ch;
   margin-inline: auto;
@@ -339,7 +339,7 @@ h4 {
 }
 
 .world-intro p.lead {
-  font-size: 1.25rem;
+  font-size: 1.38rem;
   font-style: italic;
   color: var(--cream-dim);
 }
@@ -359,7 +359,7 @@ h4 {
 .stat__value {
   display: block;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-size: clamp(2.2rem, 4vw, 3.08rem);
   font-weight: 700;
   color: var(--gold-light);
   line-height: 1;
@@ -368,7 +368,7 @@ h4 {
 .stat__label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--cream-muted);
@@ -378,7 +378,7 @@ h4 {
 /* ── 11. Section Eyebrow ─────────────────────────────────────────── */
 .section-eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--gold-dim);
@@ -418,7 +418,7 @@ h4 {
 
 .cta-tile__label {
   font-family: var(--font-display);
-  font-size: 1.2rem;
+  font-size: 1.32rem;
   font-weight: 700;
   color: var(--gold-light);
   letter-spacing: 0.06em;
@@ -426,7 +426,7 @@ h4 {
 
 .cta-tile__sub {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--cream-muted);
@@ -466,7 +466,7 @@ h4 {
   align-items: center;
   justify-content: center;
   font-family: var(--font-display);
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: var(--gold-dim);
   letter-spacing: 0.05em;
@@ -489,7 +489,7 @@ h4 {
 
 .char-card__name {
   font-family: var(--font-display);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--cream);
   line-height: 1.3;
@@ -500,7 +500,7 @@ h4 {
 
 .char-card__excerpt {
   font-family: var(--font-body);
-  font-size: 0.85rem;
+  font-size: 0.94rem;
   color: var(--cream-muted);
   line-height: 1.5;
   flex: 1;
@@ -514,7 +514,7 @@ h4 {
   display: block;
   text-align: center;
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--gold);
@@ -533,7 +533,7 @@ h4 {
 .badge {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 0.55rem;
+  font-size: 0.61rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding: 2px 6px;
@@ -558,7 +558,7 @@ h4 {
 
 .page-header__eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--gold-dim);
@@ -567,7 +567,7 @@ h4 {
 
 .page-header__title {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.2rem, 5vw, 3.3rem);
   font-weight: 700;
   color: var(--cream);
   letter-spacing: 0.04em;
@@ -576,7 +576,7 @@ h4 {
 
 .page-header__sub {
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-style: italic;
   color: var(--cream-dim);
 }
@@ -606,7 +606,7 @@ h4 {
   border-radius: var(--radius);
   padding: var(--sp-2) var(--sp-3);
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.05em;
   outline: none;
   min-width: 160px;
@@ -621,7 +621,7 @@ h4 {
   border: 1px solid var(--rule);
   color: var(--cream-muted);
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   padding: var(--sp-2) var(--sp-4);
@@ -633,7 +633,7 @@ h4 {
 
 .filter-count {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.1em;
   color: var(--cream-muted);
   margin-left: auto;
@@ -643,7 +643,7 @@ h4 {
   text-align: center;
   padding: var(--sp-12) 0;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   letter-spacing: 0.1em;
   color: var(--cream-muted);
 }
@@ -662,7 +662,7 @@ h4 {
   border-radius: 999px;
   color: var(--cream-muted);
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: var(--sp-1) var(--sp-3);
@@ -689,7 +689,7 @@ h4 {
   border-radius: var(--radius);
   padding: var(--sp-3) var(--sp-4);
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.77rem;
   letter-spacing: 0.05em;
   outline: none;
   transition: border-color 0.15s;
@@ -731,7 +731,7 @@ h4 {
 
 .lore-entry__category {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--blue-light);
@@ -739,7 +739,7 @@ h4 {
 
 .lore-entry__canon-tag {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   color: var(--gold-dim);
   letter-spacing: 0.1em;
 }
@@ -748,7 +748,7 @@ h4 {
 
 .lore-entry__title {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 1.27rem;
   font-weight: 700;
   color: var(--cream);
   letter-spacing: 0.04em;
@@ -765,7 +765,7 @@ h4 {
 
 .lore-entry__chars {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.1em;
   color: var(--cream-muted);
   display: flex;
@@ -780,13 +780,13 @@ h4 {
 .lore-entry__char-link {
   color: var(--blue-light);
   text-decoration: none;
-  font-size: 0.65rem;
+  font-size: 0.72rem;
 }
 .lore-entry__char-link:hover { color: var(--gold-light); }
 
 .lore-entry__content {
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.85;
   color: var(--cream-dim);
 }
@@ -799,7 +799,7 @@ h4 {
 /* ── 20. Character Detail ────────────────────────────────────────── */
 .back-link {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--cream-muted);
@@ -834,7 +834,7 @@ h4 {
   align-items: center;
   justify-content: center;
   font-family: var(--font-display);
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--gold-dim);
   flex-shrink: 0;
@@ -844,7 +844,7 @@ h4 {
 
 .char-header__name {
   font-family: var(--font-display);
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-size: clamp(1.65rem, 4vw, 2.75rem);
   font-weight: 700;
   color: var(--cream);
   letter-spacing: 0.04em;
@@ -857,7 +857,7 @@ h4 {
 
 .char-section__heading {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--gold);
@@ -868,17 +868,17 @@ h4 {
 
 .char-section__text {
   font-family: var(--font-body);
-  font-size: 1.05rem;
+  font-size: 1.16rem;
   line-height: 1.85;
   color: var(--cream-dim);
   max-width: 70ch;
 }
 
 .aliases-list { list-style: none; display: flex; flex-direction: column; gap: var(--sp-2); }
-.aliases-list__item { font-family: var(--font-body); font-size: 1rem; color: var(--cream-dim); }
+.aliases-list__item { font-family: var(--font-body); font-size: 1.1rem; color: var(--cream-dim); }
 .aliases-list__type {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.1em;
   color: var(--cream-muted);
   margin-left: var(--sp-2);
@@ -910,7 +910,7 @@ h4 {
 
 .lore-accordion__title {
   font-family: var(--font-display);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--cream);
   letter-spacing: 0.03em;
@@ -919,7 +919,7 @@ h4 {
 
 .lore-accordion__indicator {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   color: var(--gold-dim);
   transition: transform 0.2s;
   flex-shrink: 0;
@@ -931,7 +931,7 @@ h4 {
   border-top: 1px solid var(--rule-dim);
   background: var(--surface-1);
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.85;
   color: var(--cream-dim);
 }
@@ -943,7 +943,7 @@ h4 {
 
 .rel-group__type {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--gold-dim);
@@ -954,7 +954,7 @@ h4 {
 
 .rel-group__name {
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--cream-dim);
   text-decoration: none;
 }
@@ -976,7 +976,7 @@ h4 {
 
 .site-footer__mark {
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: 1.21rem;
   color: var(--gold);
   letter-spacing: 0.1em;
   margin-bottom: var(--sp-4);
@@ -993,7 +993,7 @@ h4 {
 
 .site-footer__links a {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--cream-muted);
@@ -1004,7 +1004,7 @@ h4 {
 
 .site-footer__meta {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.66rem;
   letter-spacing: 0.08em;
   color: var(--cream-muted);
   line-height: 2;
@@ -1015,9 +1015,16 @@ h4 {
 
 .site-footer__ai-note {
   font-family: var(--font-mono);
-  font-size: 0.55rem;
+  font-size: 0.61rem;
   letter-spacing: 0.08em;
   color: var(--cream-muted);
   opacity: 0.7;
   margin-top: var(--sp-1);
+}
+
+/* ── 22. Wiki Links ───────────────────────────────────────────────── */
+.wiki-link--unresolved {
+  color: var(--cream-muted);
+  border-bottom: 1px dashed var(--cream-muted);
+  cursor: help;
 }

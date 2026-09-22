@@ -73,9 +73,7 @@
         {% endif %}
 
         <div class="lore-entry__content">
-          {% for paragraph in entry.content.split('\n\n') %}
-          <p>{{ paragraph | trim }}</p>
-          {% endfor %}
+          {{ entry.content | render_content("") }}
         </div>
       </div>
 
